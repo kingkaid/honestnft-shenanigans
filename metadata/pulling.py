@@ -7,7 +7,7 @@ import argparse
 import sys
 from web3 import Web3
 
-ABI_ENDPOINT = 'https://api.etherscan.io/api?module=contract&action=getabi&address='
+ABI_ENDPOINT = 'https://api.etherscan.io/api?module=contract&action=getabi&address=0xf4794aEB9D243c024cf59B85b30ed94F5014168a'
 ENDPOINT = ''
 ATTRIBUTES_FOLDER = 'raw_attributes'
 IMPLEMENTATION_SLOT = '0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc'
